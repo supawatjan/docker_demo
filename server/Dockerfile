@@ -10,4 +10,4 @@ RUN npm i
 COPY . /usr/src/app
 EXPOSE 80
 
-CMD ["nodemon", "index.js" ]
+CMD ["node", "index.js" ]
